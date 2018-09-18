@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.App {
+    text-align: center;
+}
+
+h1 {
+    color: #2f3542;
+    margin: 5px 0 5px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    text-transform: uppercase;
+    font-size: 82px;
+    text-shadow: 3px 3px 10px rgba(0,0,0,.5);
+}
+
+.buttons {
+    text-align: center;
+    margin: 0;
+}
+
+.buttons button {
+    font-family: 'Indie Flower', cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 10px 10px 30px 10px;
+    padding: 7px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: left;
+}
+
+.buttons button {
+    background-color: #BE6263;
+
+}
+
+.buttons button:hover {
+    background: #747D8C;
+    color: #000;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+    /*font-size: 24px;*/
+    color: #2f3542;
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 10px rgba(0,0,0,.5);
+}
+
+.level_buttons {
+    float: right;
+    position: relative;
+    height: 700px;
+    width: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 30px;
+}
+
+.buttons .easy_button {
+    background-color: #c3d8c0;
+}
+
+.buttons .medium_button {
+    background-color: #8BA987;
+}
+
+.buttons .hard_button {
+    background-color: #6C7767;
+}
+
+.buttons .very_hard_button {
+    background-color: #4A6266;
+}
+
+.buttons .insane_button {
+    background-color: #F46B63;
+}
+.buttons .inhuman_button {
+    background-color: #BE6263;
+}
